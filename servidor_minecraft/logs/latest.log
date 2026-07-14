@@ -1,0 +1,867 @@
+[03:03:24] [ServerMain/INFO]: [bootstrap] Running Java 25 (OpenJDK 64-Bit Server VM 25.0.3+9-2-24.04.2-Ubuntu; Ubuntu null) on Linux 6.8.0-1052-azure (amd64)
+[03:03:24] [ServerMain/INFO]: [bootstrap] Loading Paper 26.1.2-60-main@b4682bf (2026-05-04T06:25:04Z) for Minecraft 26.1.2
+[03:03:24] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[03:03:25] [ServerMain/INFO]: [PluginInitializerManager] Initialized 20 plugins
+[03:03:25] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (20):
+ - AddHeads (1.2.2), AuthMe (6.0.0-b2734), Chunky (1.5.3), Essentials (2.22.0), GSit (3.5.1), Geyser-Spigot (2.11.0-SNAPSHOT), InvSeePlusPlus (0.31.15), LuckPerms (5.5.53), PlaceholderAPI (2.12.3), SVCPlaceholderBridge (1.0.0), SkinsRestorer (15.12.4), TAB (6.1.0), TabTPS (1.4.1), Timber (1.8.4), UnlimitedNameTags (2.0.1), ViaBackwards (5.10.0), ViaVersion (5.10.0), floodgate (2.2.5-SNAPSHOT (b138-fc99cfc)), packetevents (2.13.0), voicechat (2.6.20)
+[03:03:30] [ServerMain/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
+[03:03:30] [ServerMain/WARN]: resource-pack-id missing, using default of b14fa36b-7066-3a43-917c-88a73279da26
+[03:03:30] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[03:03:30] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
+[03:03:30] [ServerMain/INFO]: Found new data pack paper, loading it automatically
+[03:03:31] [Worker-Main-1/INFO]: No existing world data, creating new world
+[03:03:32] [ServerMain/INFO]: Loaded 1515 recipes
+[03:03:32] [ServerMain/INFO]: Loaded 1617 advancements
+[03:03:32] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[03:03:32] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 397.6ms
+[03:03:32] [ServerMain/WARN]: You specified a resource pack without providing a sha1 hash. Pack will be updated on the client only if you change the name of the pack.
+[03:03:32] [ServerMain/WARN]: resource-pack-id missing, using default of b14fa36b-7066-3a43-917c-88a73279da26
+[03:03:32] [Server thread/INFO]: Starting minecraft server version 26.1.2
+[03:03:32] [Server thread/INFO]: Loading properties
+[03:03:34] [Server thread/INFO]: This server is running Paper version 26.1.2-60-main@b4682bf (2026-05-04T06:25:04Z) (Implementing API version 26.1.2.build.60-stable)
+[03:03:34] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[03:03:34] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[03:03:34] [Server thread/INFO]: Using 4 threads for Netty based IO
+[03:03:34] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[03:03:35] [Server thread/INFO]: Default game type: SURVIVAL
+[03:03:35] [Server thread/INFO]: Generating keypair
+[03:03:35] [Server thread/INFO]: Starting Minecraft server on *:25565
+[03:03:35] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[03:03:35] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loading 17 libraries... please wait
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/pika/servidor_minecraft/libraries/ch/jalu/injector/1.0/injector-1.0.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/pika/servidor_minecraft/libraries/javax/inject/javax.inject/1/javax.inject-1.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/pika/servidor_minecraft/libraries/javax/annotation/javax.annotation-api/1.3.1/javax.annotation-api-1.3.1.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/pika/servidor_minecraft/libraries/net/ricecode/string-similarity/1.0.0/string-similarity-1.0.0.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/pika/servidor_minecraft/libraries/com/maxmind/geoip2/geoip2/4.3.0/geoip2-4.3.0.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/pika/servidor_minecraft/libraries/com/maxmind/db/maxmind-db/3.1.1/maxmind-db-3.1.1.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/pika/servidor_minecraft/libraries/com/fasterxml/jackson/core/jackson-databind/2.19.0/jackson-databind-2.19.0.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/pika/servidor_minecraft/libraries/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.19.0/jackson-datatype-jsr310-2.19.0.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/pika/servidor_minecraft/libraries/com/fasterxml/jackson/core/jackson-core/2.19.0/jackson-core-2.19.0.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/pika/servidor_minecraft/libraries/com/fasterxml/jackson/core/jackson-annotations/2.19.0/jackson-annotations-2.19.0.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/pika/servidor_minecraft/libraries/javatar/javatar/2.5/javatar-2.5.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/pika/servidor_minecraft/libraries/org/apache/commons/commons-email/1.6.0/commons-email-1.6.0.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/pika/servidor_minecraft/libraries/com/sun/mail/jakarta.mail/1.6.7/jakarta.mail-1.6.7.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/pika/servidor_minecraft/libraries/com/sun/activation/jakarta.activation/1.2.1/jakarta.activation-1.2.1.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/pika/servidor_minecraft/libraries/com/zaxxer/HikariCP/7.0.2/HikariCP-7.0.2.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/pika/servidor_minecraft/libraries/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/pika/servidor_minecraft/libraries/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/pika/servidor_minecraft/libraries/ch/jalu/datasourcecolumns/0.1.2/datasourcecolumns-0.1.2.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/pika/servidor_minecraft/libraries/com/mysql/mysql-connector-j/9.3.0/mysql-connector-j-9.3.0.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/pika/servidor_minecraft/libraries/com/google/protobuf/protobuf-java/4.29.0/protobuf-java-4.29.0.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/pika/servidor_minecraft/libraries/org/mariadb/jdbc/mariadb-java-client/3.5.7/mariadb-java-client-3.5.7.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/pika/servidor_minecraft/libraries/org/postgresql/postgresql/42.7.7/postgresql-42.7.7.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/pika/servidor_minecraft/libraries/org/checkerframework/checker-qual/3.49.3/checker-qual-3.49.3.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/pika/servidor_minecraft/libraries/de/rtner/PBKDF2/1.1.4/PBKDF2-1.1.4.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/pika/servidor_minecraft/libraries/org/picketbox/picketbox/4.0.21.Final/picketbox-4.0.21.Final.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/pika/servidor_minecraft/libraries/de/mkammerer/argon2-jvm-nolibs/2.12/argon2-jvm-nolibs-2.12.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/pika/servidor_minecraft/libraries/net/java/dev/jna/jna/5.16.0/jna-5.16.0.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/pika/servidor_minecraft/libraries/at/favre/lib/bcrypt/0.10.2/bcrypt-0.10.2.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/pika/servidor_minecraft/libraries/at/favre/lib/bytes/1.5.0/bytes-1.5.0.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/pika/servidor_minecraft/libraries/com/warrenstrange/googleauth/1.5.0/googleauth-1.5.0.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/pika/servidor_minecraft/libraries/commons-codec/commons-codec/1.14/commons-codec-1.14.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/pika/servidor_minecraft/libraries/org/apache/httpcomponents/httpclient/4.5.12/httpclient-4.5.12.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/pika/servidor_minecraft/libraries/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/pika/servidor_minecraft/libraries/commons-logging/commons-logging/1.2/commons-logging-1.2.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/pika/servidor_minecraft/libraries/ch/jalu/configme/1.3.1/configme-1.3.1.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/pika/servidor_minecraft/libraries/org/yaml/snakeyaml/2.0/snakeyaml-2.0.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/pika/servidor_minecraft/libraries/org/bstats/bstats-bukkit/3.1.0/bstats-bukkit-3.1.0.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [AuthMe] Loaded library /workspaces/pika/servidor_minecraft/libraries/org/bstats/bstats-base/3.1.0/bstats-base-3.1.0.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [UnlimitedNameTags] Loading 3 libraries... please wait
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [UnlimitedNameTags] Loaded library /workspaces/pika/servidor_minecraft/libraries/net/jodah/expiringmap/0.5.11/expiringmap-0.5.11.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [UnlimitedNameTags] Loaded library /workspaces/pika/servidor_minecraft/libraries/org/apache/commons/commons-jexl3/3.4.0/commons-jexl3-3.4.0.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [UnlimitedNameTags] Loaded library /workspaces/pika/servidor_minecraft/libraries/commons-logging/commons-logging/1.3.2/commons-logging-1.3.2.jar
+[03:03:36] [Server thread/INFO]: [SpigotLibraryLoader] [UnlimitedNameTags] Loaded library /workspaces/pika/servidor_minecraft/libraries/org/snakeyaml/snakeyaml-engine/2.7/snakeyaml-engine-2.7.jar
+[03:03:36] [Server thread/INFO]: [floodgate] Loading server plugin floodgate v2.2.5-SNAPSHOT (b138-fc99cfc)
+[03:03:37] [Server thread/WARN]: [floodgate] en_ is not a supported Floodgate language.
+[03:03:37] [Server thread/INFO]: [floodgate] Took 843ms to boot Floodgate
+[03:03:37] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.10.0
+[03:03:37] [Server thread/INFO]: [ViaVersion] ViaVersion 5.10.0 is now loaded. Registering protocol transformers and injecting...
+[03:03:38] [Via-Mappingloader-1/INFO]: [ViaVersion] Loading block connection mappings ...
+[03:03:38] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[03:03:38] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[03:03:39] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.12.3
+[03:03:39] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.11.0-SNAPSHOT
+[03:03:39] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[03:03:39] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[03:03:39] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.10.0
+[03:03:39] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.53
+[03:03:40] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[03:03:40] [Server thread/INFO]: [TabTPS] Loading server plugin TabTPS v1.4.1
+[03:03:40] [Server thread/INFO]: [voicechat] Loading server plugin voicechat v2.6.20
+[03:03:40] [Server thread/INFO]: [packetevents] Loading server plugin packetevents v2.13.0
+[03:03:40] [Server thread/INFO]: [packetevents] Loading packetevents...
+[03:03:42] [Server thread/INFO]: [packetevents] Loaded packetevents v2.13.0
+[03:03:42] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.22.0
+[03:03:42] [Server thread/INFO]: [TAB] Loading server plugin TAB v6.1.0
+[03:03:42] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.12.4
+[03:03:42] [Server thread/INFO]: [SVCPlaceholderBridge] Loading server plugin SVCPlaceholderBridge v1.0.0
+[03:03:42] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v6.0.0-b2734
+[03:03:42] [Server thread/INFO]: [UnlimitedNameTags] Loading server plugin UnlimitedNameTags v2.0.1
+[03:03:42] [Server thread/INFO]: [AddHeads] Loading server plugin AddHeads v1.2.2
+[03:03:42] [Server thread/INFO]: [Timber] Loading server plugin Timber v1.8.4
+[03:03:42] [Server thread/INFO]: [Chunky] Loading server plugin Chunky v1.5.3
+[03:03:42] [Server thread/INFO]: [GSit] Loading server plugin GSit v3.5.1
+[03:03:42] [Server thread/INFO]: [InvSee++] Loading server plugin InvSeePlusPlus v0.31.15
+[03:03:42] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[03:03:42] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.53
+[03:03:42] [Server thread/INFO]:         __    
+[03:03:42] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.53
+[03:03:42] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[03:03:42] [Server thread/INFO]: 
+[03:03:42] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[03:03:43] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[03:03:43] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[03:03:43] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1613ms)
+[03:03:43] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.12.4
+[03:03:44] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 26.1.2.
+[03:03:44] [Server thread/INFO]: [SkinsRestorer] Floodgate skin listener registered
+[03:03:45] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[03:03:45] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.12.4]
+[03:03:45] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[03:03:45] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[03:03:45] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[03:03:45] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[03:03:45] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[03:03:45] [Server thread/INFO]: Preparing level "world"
+[03:03:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[03:03:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[03:03:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |   SkinsRestorer   |
+[03:03:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |-------------------|
+[03:03:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     |  Standalone Mode  |
+[03:03:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     +===================+
+[03:03:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[03:03:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Version: 15.12.4
+[03:03:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     Commit: a5b2c20
+[03:03:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer]     This is the latest version!
+[03:03:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] ----------------------------------------------
+[03:03:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[03:03:45] [Folia Async Scheduler Thread #1/INFO]: [SkinsRestorer] Want to support SkinsRestorer or receive priority support? Become a supporter: https://skinsrestorer.net/pricing
+[03:03:45] [Server thread/INFO]: Selecting spawn point for level 'minecraft:overworld'...
+[03:03:54] [Server thread/INFO]: Selecting spawn point for level 'minecraft:the_nether'...
+[03:03:55] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:overworld'...
+[03:03:55] [Server thread/INFO]: Preparing spawn area: 100%
+[03:03:55] [Server thread/INFO]: Prepared spawn area in 10126 ms
+[03:03:55] [Server thread/INFO]: Loading 0 persistent chunks for level 'minecraft:the_nether'...
+[03:03:55] [Server thread/INFO]: Preparing spawn area: 100%
+[03:03:55] [Server thread/INFO]: Prepared spawn area in 939 ms
+[03:03:55] [Server thread/INFO]: Done preparing level "world" (10.648s)
+[03:03:55] [Server thread/INFO]: [floodgate] Enabling floodgate v2.2.5-SNAPSHOT (b138-fc99cfc)
+[03:03:56] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.10.0
+[03:03:56] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 26.1-26.1.2 (775)
+[03:03:56] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.12.3
+[03:03:56] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[03:03:56] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.11.0-SNAPSHOT
+[03:03:57] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.10.0
+[03:03:57] [Server thread/INFO]: [TabTPS] Enabling TabTPS v1.4.1
+[03:03:57] [Server thread/INFO]: [voicechat] Enabling voicechat v2.6.20
+[03:03:58] [Server thread/INFO]: [voicechat] Initializing compatibility for version 26.1.2.build.60-stable
+[03:03:58] [Server thread/INFO]: [voicechat] Compatibility version 20
+[03:03:58] [Server thread/INFO]: [voicechat] Successfully initialized commodore command completion
+[03:03:58] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: voicechat [2.6.20]
+[03:03:58] [Server thread/INFO]: [voicechat] Successfully registered PlaceholderAPI expansion
+[03:03:58] [Server thread/INFO]: [voicechat] Successfully added ViaVersion mappings
+[03:03:58] [Server thread/INFO]: [packetevents] Enabling packetevents v2.13.0
+[03:03:58] [packetevents-update-check-thread/INFO]: [packetevents] Checking for updates, please wait...
+[03:03:58] [Server thread/INFO]: [Essentials] Enabling Essentials v2.22.0
+[03:03:58] [packetevents-update-check-thread/INFO]: [packetevents] You are running the latest release: 2.13.0
+[03:03:58] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[03:03:58] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[03:03:58] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[03:03:58] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[03:03:58] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[03:03:58] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[03:03:58] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[03:03:58] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[03:03:58] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[03:03:58] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[03:03:58] [Server thread/INFO]: [Essentials] Selected Paper 1.13+ Tile Entity Provider as the provider for TileEntityProvider
+[03:03:58] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[03:03:58] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[03:03:58] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[03:03:58] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[03:03:58] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[03:03:58] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[03:03:58] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[03:03:58] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[03:03:58] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[03:03:58] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[03:03:58] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[03:03:58] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[03:03:58] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[03:03:58] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[03:03:58] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[03:03:59] [Server thread/INFO]: [Essentials] Loaded 46312 items from items.json.
+[03:03:59] [Server thread/INFO]: [Essentials] Using locale en
+[03:03:59] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[03:03:59] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[03:03:59] [Server thread/WARN]: [Essentials] Detected supported permissions plugin LuckPerms without Vault installed.
+[03:03:59] [Server thread/WARN]: [Essentials] Features such as chat prefixes/suffixes and group-related functionality will not work until you install Vault.
+[03:03:59] [Server thread/INFO]: [Essentials] Using superperms-based permissions.
+[03:03:59] [Server thread/INFO]: [TAB] Enabling TAB v6.1.0
+[03:03:59] [Server thread/INFO]: [TAB] Found NMS implementation: me.neznamy.tab.platforms.bukkit.paper_1_21_11.NMSImplementationProvider
+[03:03:59] [Server thread/INFO]: [TAB] Enabled in 223ms
+[03:03:59] [Server thread/INFO]: [SVCPlaceholderBridge] Enabling SVCPlaceholderBridge v1.0.0
+[03:03:59] [Server thread/INFO]: [SVCPlaceholderBridge] Plugin registrado no Simple Voice Chat com sucesso.
+[03:03:59] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: svcstatus [1.0.0]
+[03:03:59] [Server thread/INFO]: [SVCPlaceholderBridge] Expansão de placeholders '%svcstatus_...%' registrada.
+[03:03:59] [Server thread/INFO]: [AuthMe] Enabling AuthMe v6.0.0-b2734
+[03:03:59] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[03:03:59] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
+[03:04:00] [Server thread/INFO]: [AuthMe] Hooked successfully into Essentials
+[03:04:00] [Server thread/INFO]: [AuthMe] Essentials spawn file not found: '/workspaces/pika/servidor_minecraft/plugins/Essentials/spawn.yml'
+[03:04:00] [Server thread/INFO]: [AuthMe] AuthMe 6.0.0 build n.2734 successfully enabled!
+[03:04:00] [Server thread/INFO]: [UnlimitedNameTags] Enabling UnlimitedNameTags v2.0.1
+[03:04:01] [Server thread/INFO]: [UnlimitedNameTags] Paper found, using Paper's tracker
+[03:04:01] [Server thread/INFO]: [UnlimitedNameTags] PacketEvents found, hooking into it
+[03:04:01] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: unt [2.0.1]
+[03:04:01] [Server thread/INFO]: [UnlimitedNameTags] ViaVersion found, hooking into it
+[03:04:01] [Server thread/INFO]: [UnlimitedNameTags] Floodgate found, hooking into it
+[03:04:01] [Server thread/INFO]: [UnlimitedNameTags] API registered
+[03:04:01] [Server thread/INFO]: [UnlimitedNameTags] UnlimitedNameTags has been enabled!
+[03:04:01] [Server thread/INFO]: [AddHeads] Enabling AddHeads v1.2.2
+[03:04:01] [Server thread/ERROR]: Error occurred while enabling AddHeads v1.2.2 (Is it up to date?)
+java.lang.NoClassDefFoundError: com/comphenix/protocol/events/PacketAdapter
+	at AddHeads-1.2.2.jar//goshkow.addhead.AddHeads.onEnable(AddHeads.java:74) ~[?:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:279) ~[paper-api-26.1.2.build.60-stable.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:207) ~[paper-26.1.2.jar:26.1.2-60-b4682bf]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-26.1.2.jar:26.1.2-60-b4682bf]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-26.1.2.build.60-stable.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:637) ~[paper-26.1.2.jar:26.1.2-60-b4682bf]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:594) ~[paper-26.1.2.jar:26.1.2-60-b4682bf]
+	at net.minecraft.server.MinecraftServer.initPostWorld(MinecraftServer.java:680) ~[paper-26.1.2.jar:26.1.2-60-b4682bf]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:386) ~[paper-26.1.2.jar:26.1.2-60-b4682bf]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1301) ~[paper-26.1.2.jar:26.1.2-60-b4682bf]
+	at net.minecraft.server.MinecraftServer.lambda$spin$0(MinecraftServer.java:304) ~[paper-26.1.2.jar:26.1.2-60-b4682bf]
+	at java.base/java.lang.Thread.run(Thread.java:1474) ~[?:?]
+Caused by: java.lang.ClassNotFoundException: com.comphenix.protocol.events.PacketAdapter
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass0(PluginClassLoader.java:208) ~[paper-api-26.1.2.build.60-stable.jar:?]
+	at org.bukkit.plugin.java.PluginClassLoader.loadClass(PluginClassLoader.java:175) ~[paper-api-26.1.2.build.60-stable.jar:?]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:490) ~[?:?]
+	... 12 more
+[03:04:01] [Server thread/INFO]: [AddHeads] Disabling AddHeads v1.2.2
+[03:04:01] [Server thread/INFO]: [Timber] Enabling Timber v1.8.4
+[03:04:01] [Server thread/WARN]: LogBlock isn't injected! 
+[03:04:01] [Server thread/WARN]: Install the plugin to improve tree detection 
+[03:04:01] [Server thread/WARN]: Download link: https://www.curseforge.com/minecraft/bukkit-plugins/logblocks 
+[03:04:01] [Server thread/INFO]: [Timber] Plugin PlaceholderAPI injected
+[03:04:01] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: timber [26.1.2-60-b4682bf (MC: 26.1.2)]
+[03:04:01] [Server thread/INFO]: [Chunky] Enabling Chunky v1.5.3
+[03:04:01] [Server thread/INFO]: [GSit] Enabling GSit v3.5.1
+[03:04:01] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gsit [3.5.1]
+[03:04:01] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[03:04:01] [Server thread/INFO]: [GSit] Link with PlaceholderAPI successful!
+[03:04:01] [Server thread/INFO]: [InvSee++] Enabling InvSeePlusPlus v0.31.15
+[03:04:01] [Server thread/INFO]: [InvSee++] Detected server software: Paper version null
+[03:04:02] [Server thread/INFO]: [spark] Starting background profiler...
+[03:04:02] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[03:04:02] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[03:04:02] [Server thread/INFO]: [Geyser-Spigot] 
+[03:04:02] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.11.0-b1193 (git-master-c813ca4)
+[03:04:02] [Server thread/INFO]: [Geyser-Spigot] 
+[03:04:02] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[03:04:03] [Server thread/INFO]: [Geyser-Spigot] Registered 199 custom block overrides.
+[03:04:03] [Server thread/INFO]: [Geyser-Spigot] Registered 2 custom block item overrides.
+[03:04:03] [Server thread/INFO]: [Geyser-Spigot] Registered 7 custom blocks.
+[03:04:05] [Server thread/WARN]: [Geyser-Spigot] Custom item geysermc:furnace_minecart overrides the vanilla item model minecraft:furnace_minecart without additional predicates!
+[03:04:05] [Server thread/INFO]: [Geyser-Spigot] Registered 1 custom items
+[03:04:05] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[03:04:05] [Server thread/INFO]: [Geyser-Spigot] Done (3.301s)! Run /geyser help for help!
+[03:04:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[03:04:06] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[03:04:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[03:04:06] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[03:04:06] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[03:04:06] [Server thread/INFO]: Running delayed init tasks
+[03:04:06] [Craft Scheduler Thread - 7 - Essentials/INFO]: [Essentials] Fetching version information...
+[03:04:06] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[03:04:06] [Craft Scheduler Thread - 9 - AuthMe/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[03:04:06] [Craft Scheduler Thread - 9 - AuthMe/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[03:04:06] [Craft Scheduler Thread - 9 - AuthMe/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[03:04:06] [Craft Scheduler Thread - 9 - AuthMe/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins/AuthMe/GeoLite2-Country.mmdb (No such file or directory)
+[03:04:06] [Server thread/INFO]: Done (42.713s)! For help, type "help"
+[03:04:06] [Server thread/INFO]: [voicechat] Loading plugins
+[03:04:06] [Server thread/INFO]: [voicechat] Loaded 1 plugin(s)
+[03:04:06] [Server thread/INFO]: [voicechat] Initializing plugins
+[03:04:06] [Server thread/INFO]: [voicechat] Initialized 1 plugin(s)
+[03:04:06] [Server thread/INFO]: [voicechat] Registering events for 'svc-placeholder-bridge'
+[03:04:06] [Server thread/WARN]: [voicechat] Running in offline mode - Voice chat encryption is not secure!
+[03:04:06] [VoiceChatServerThread/INFO]: [voicechat] Voice host is '147.185.221.180:53721'
+[03:04:06] [VoiceChatServerThread/INFO]: [voicechat] Voice chat server started at port 24454
+[03:04:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: player [2.0.9]
+[03:04:06] [Server thread/INFO]: [PlaceholderAPI] Successfully registered external expansion: luckperms [5.4-R2]
+[03:04:06] [Server thread/INFO]: 2 placeholder hook(s) registered!
+[03:04:06] [Server thread/WARN]: [ViaVersion] There is a newer plugin version available: 5.11.0, you're on: 5.10.0
+[03:04:06] [Paper Async Task Handler Thread - 1/INFO]: *** Currently you are 14 build(s) behind ***
+[03:04:06] [Paper Async Task Handler Thread - 1/INFO]: *** It is highly recommended to download the latest build from https://papermc.io/downloads/paper ***
+[03:04:10] [User Authenticator #0/INFO]: UUID of player iCachapa is e9da21bd-50e3-3436-a4e0-0daf9244b1b9
+[03:04:10] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms]
+[03:04:16] [User Authenticator #1/INFO]: UUID of player elevenzzk is 73e9e305-9d41-38ff-8742-2330ee6048f1
+[03:04:19] [Server thread/INFO]: iCachapa joined the game
+[03:04:19] [Server thread/INFO]: iCachapa[/127.10.142.96:49419] logged in with entity id 1 at ([minecraft:overworld]36.5, 64.0, -39.5)
+[03:04:19] [Craft Scheduler Thread - 6 - AuthMe/INFO]: [AuthMe] iCachapa logged in 127.10.142.96
+[03:04:19] [Server thread/INFO]: [voicechat] Received secret request of iCachapa (20)
+[03:04:19] [Server thread/INFO]: [voicechat] Sent secret to iCachapa
+[03:04:19] [User Authenticator #2/INFO]: UUID of player TaCarecoDePrazer is 4fa83c9c-2982-3320-8ad3-e83b5de4f7a6
+[03:04:20] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e9da21bd-50e3-3436-a4e0-0daf9244b1b9
+[03:04:20] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e9da21bd-50e3-3436-a4e0-0daf9244b1b9
+[03:04:20] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player iCachapa (e9da21bd-50e3-3436-a4e0-0daf9244b1b9) successfully connected to voice chat
+[03:04:29] [Server thread/INFO]: elevenzzk joined the game
+[03:04:29] [Server thread/INFO]: elevenzzk[/127.78.93.203:53647] logged in with entity id 2 at ([minecraft:overworld]28.5, 70.0, -22.5)
+[03:04:29] [Craft Scheduler Thread - 6 - AuthMe/INFO]: [AuthMe] elevenzzk logged in 127.78.93.203
+[03:04:29] [Server thread/INFO]: [voicechat] Received secret request of elevenzzk (20)
+[03:04:29] [Server thread/INFO]: [voicechat] Sent secret to elevenzzk
+[03:04:29] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 73e9e305-9d41-38ff-8742-2330ee6048f1
+[03:04:30] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 73e9e305-9d41-38ff-8742-2330ee6048f1
+[03:04:30] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player elevenzzk (73e9e305-9d41-38ff-8742-2330ee6048f1) successfully connected to voice chat
+[03:04:37] [Server thread/INFO]: TaCarecoDePrazer joined the game
+[03:04:37] [Server thread/INFO]: TaCarecoDePrazer[/127.194.142.56:34285] logged in with entity id 16 at ([minecraft:overworld]24.5, 74.0, -30.5)
+[03:04:37] [Server thread/INFO]: [AuthMe] TaCarecoDePrazer registered 127.194.142.56
+[03:04:37] [Craft Scheduler Thread - 6 - AuthMe/INFO]: [AuthMe] TaCarecoDePrazer logged in 127.194.142.56
+[03:04:42] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[03:05:27] [User Authenticator #3/INFO]: UUID of player GroxMv is fe32d8db-d195-3c2d-986c-0886c3829108
+[03:05:34] [Server thread/INFO]: elevenzzk has made the advancement [Stone Age]
+[03:06:00] [Server thread/INFO]: elevenzzk has made the advancement [Getting an Upgrade]
+[03:06:27] [Server thread/INFO]: iCachapa has made the advancement [Stone Age]
+[03:06:33] [Server thread/INFO]: GroxMv (fe32d8db-d195-3c2d-986c-0886c3829108) lost connection: Excedeu o tempo para autenticação
+[03:06:57] [Server thread/INFO]: iCachapa has made the advancement [Getting an Upgrade]
+[03:07:11] [Server thread/INFO]: TaCarecoDePrazer has made the advancement [Stone Age]
+[03:07:27] [User Authenticator #4/INFO]: UUID of player GroxMv is fe32d8db-d195-3c2d-986c-0886c3829108
+[03:07:33] [Server thread/INFO]: iCachapa issued server command: /pingall
+[03:07:39] [User Authenticator #5/INFO]: UUID of player mong3_ is 9ca17b60-8c4e-356a-a4d3-249aecb61cf2
+[03:07:46] [Server thread/INFO]: TaCarecoDePrazer has made the advancement [Getting an Upgrade]
+[03:07:48] [Server thread/INFO]: GroxMv joined the game
+[03:07:48] [Server thread/INFO]: GroxMv[/127.170.176.31:54683] logged in with entity id 1004 at ([minecraft:overworld]31.5, 69.0, -31.5)
+[03:07:48] [Server thread/INFO]: [AuthMe] GroxMv registered 127.170.176.31
+[03:07:48] [Craft Scheduler Thread - 17 - AuthMe/INFO]: [AuthMe] GroxMv logged in 127.170.176.31
+[03:07:48] [Server thread/INFO]: [voicechat] Received secret request of GroxMv (20)
+[03:07:48] [Server thread/INFO]: [voicechat] Sent secret to GroxMv
+[03:07:49] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player fe32d8db-d195-3c2d-986c-0886c3829108
+[03:07:50] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player fe32d8db-d195-3c2d-986c-0886c3829108
+[03:07:50] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player GroxMv (fe32d8db-d195-3c2d-986c-0886c3829108) successfully connected to voice chat
+[03:08:42] [Server thread/INFO]: mong3_ (9ca17b60-8c4e-356a-a4d3-249aecb61cf2) lost connection: Excedeu o tempo para autenticação
+[03:08:52] [User Authenticator #6/INFO]: UUID of player mong3_ is 9ca17b60-8c4e-356a-a4d3-249aecb61cf2
+[03:09:10] [Server thread/INFO]: mong3_ joined the game
+[03:09:10] [Server thread/INFO]: mong3_[/127.209.223.213:52317] logged in with entity id 1439 at ([minecraft:overworld]30.5, 64.0, -32.5)
+[03:09:10] [Server thread/INFO]: [AuthMe] mong3_ registered 127.209.223.213
+[03:09:10] [Craft Scheduler Thread - 22 - AuthMe/INFO]: [AuthMe] mong3_ logged in 127.209.223.213
+[03:09:11] [Server thread/INFO]: [voicechat] Received secret request of mong3_ (20)
+[03:09:11] [Server thread/INFO]: [voicechat] Sent secret to mong3_
+[03:09:11] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 9ca17b60-8c4e-356a-a4d3-249aecb61cf2
+[03:09:12] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 9ca17b60-8c4e-356a-a4d3-249aecb61cf2
+[03:09:12] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player mong3_ (9ca17b60-8c4e-356a-a4d3-249aecb61cf2) successfully connected to voice chat
+[03:09:45] [Server thread/INFO]: elevenzzk has made the advancement [Acquire Hardware]
+[03:10:13] [Server thread/INFO]: elevenzzk has made the advancement [Isn't It Iron Pick]
+[03:11:07] [Server thread/INFO]: iCachapa issued server command: /playsound eventos:songs.la_cena ambient @a ~ ~ ~ 100 1 1
+[03:11:07] [Server thread/INFO]: [iCachapa: Played sound eventos:songs.la_cena to 5 players]
+[03:11:43] [Server thread/INFO]: GroxMv has made the advancement [Stone Age]
+[03:11:51] [Server thread/INFO]: TaCarecoDePrazer lost connection: Disconnected
+[03:11:51] [Server thread/INFO]: [voicechat] Disconnecting client TaCarecoDePrazer
+[03:11:51] [Server thread/INFO]: TaCarecoDePrazer left the game
+[03:11:59] [Server thread/INFO]: GroxMv has made the advancement [Getting an Upgrade]
+[03:12:26] [Server thread/INFO]: elevenzzk has made the advancement [Monster Hunter]
+[03:12:36] [Server thread/INFO]: elevenzzk has made the advancement [Diamonds!]
+[03:12:46] [Server thread/INFO]: mong3_ has made the advancement [Stone Age]
+[03:13:52] [Server thread/INFO]: mong3_ has made the advancement [Getting an Upgrade]
+[03:14:02] [Server thread/INFO]: elevenzzk was killed by Witch using magic
+[03:14:18] [Server thread/INFO]: iCachapa issued server command: /title @a times 3s 1s 3s
+[03:14:18] [Server thread/INFO]: [iCachapa: Changed title display times for 4 players]
+[03:14:24] [Server thread/INFO]: iCachapa issued server command: /title @a title '⏧'
+[03:14:24] [Server thread/INFO]: [iCachapa: Showing new title for 4 players]
+[03:15:47] [Server thread/INFO]: GroxMv has made the advancement [Acquire Hardware]
+[03:15:51] [Server thread/INFO]: GroxMv has made the advancement [Isn't It Iron Pick]
+[03:16:04] [Server thread/INFO]: iCachapa issued server command: /sit
+[03:16:09] [Server thread/INFO]: mong3_ issued server command: /sit
+[03:16:20] [Server thread/INFO]: GroxMv has made the advancement [Monster Hunter]
+[03:16:27] [Server thread/INFO]: elevenzzk has made the advancement [Not Today, Thank You]
+[03:17:09] [Server thread/INFO]: mong3_ lost connection: Disconnected
+[03:17:09] [Server thread/INFO]: [voicechat] Disconnecting client mong3_
+[03:17:09] [Server thread/INFO]: mong3_ left the game
+[03:17:16] [User Authenticator #7/INFO]: UUID of player mong3_ is 9ca17b60-8c4e-356a-a4d3-249aecb61cf2
+[03:17:18] [Server thread/INFO]: iCachapa issued server command: /tp GroxMv
+[03:17:25] [Server thread/INFO]: mong3_ joined the game
+[03:17:25] [Server thread/INFO]: mong3_[/127.209.223.213:59239] logged in with entity id 3187 at ([minecraft:overworld]24.294671397822025, 56.0, -74.6482044372604)
+[03:17:25] [Craft Scheduler Thread - 36 - AuthMe/INFO]: [AuthMe] mong3_ logged in 127.209.223.213
+[03:17:25] [Server thread/INFO]: [voicechat] Received secret request of mong3_ (20)
+[03:17:25] [Server thread/INFO]: [voicechat] Sent secret to mong3_
+[03:17:26] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 9ca17b60-8c4e-356a-a4d3-249aecb61cf2
+[03:17:27] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 9ca17b60-8c4e-356a-a4d3-249aecb61cf2
+[03:17:27] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player mong3_ (9ca17b60-8c4e-356a-a4d3-249aecb61cf2) successfully connected to voice chat
+[03:17:30] [Server thread/INFO]: iCachapa issued server command: /tp mong3_
+[03:17:38] [Server thread/INFO]: mong3_ issued server command: /premium
+[03:17:39] [Server thread/INFO]: mong3_ lost connection: Premium verification requested. Please reconnect to confirm ownership of your Mojang account.
+[03:17:39] [Server thread/INFO]: [voicechat] Disconnecting client mong3_
+[03:17:39] [Server thread/INFO]: mong3_ left the game
+[03:17:46] [User Authenticator #8/INFO]: UUID of player mong3_ is 9ca17b60-8c4e-356a-a4d3-249aecb61cf2
+[03:17:47] [User Authenticator #9/INFO]: UUID of player iiqvx is 50ca6d77-3e04-3589-b047-d9746491aac8
+[03:17:48] [Server thread/INFO]: iiqvx (50ca6d77-3e04-3589-b047-d9746491aac8) lost connection: Disconnected
+[03:17:55] [Server thread/INFO]: mong3_ joined the game
+[03:17:55] [Server thread/INFO]: mong3_[/127.209.223.213:57763] logged in with entity id 3340 at ([minecraft:overworld]33.84834246045639, 64.0, -73.60807213595082)
+[03:17:55] [Craft Scheduler Thread - 39 - AuthMe/INFO]: [AuthMe] mong3_ logged in 127.209.223.213
+[03:17:55] [Server thread/INFO]: [voicechat] Received secret request of mong3_ (20)
+[03:17:55] [Server thread/INFO]: [voicechat] Sent secret to mong3_
+[03:17:56] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 9ca17b60-8c4e-356a-a4d3-249aecb61cf2
+[03:17:57] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 9ca17b60-8c4e-356a-a4d3-249aecb61cf2
+[03:17:57] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player mong3_ (9ca17b60-8c4e-356a-a4d3-249aecb61cf2) successfully connected to voice chat
+[03:18:39] [Server thread/INFO]: GroxMv fell from a high place
+[03:18:55] [Server thread/INFO]: iCachapa has made the advancement [Monster Hunter]
+[03:19:02] [Server thread/INFO]: GroxMv fell from a high place
+[03:20:15] [Server thread/INFO]: GroxMv fell from a high place
+[03:20:17] [Server thread/INFO]: mong3_ has made the advancement [Monster Hunter]
+[03:20:19] [Server thread/INFO]: iCachapa issued server command: /god
+[03:20:22] [Server thread/INFO]: iCachapa issued server command: /god
+[03:20:30] [Server thread/INFO]: iCachapa issued server command: /fly
+[03:20:50] [Server thread/INFO]: iCachapa issued server command: /title @a times 0s 1s 0s
+[03:20:50] [Server thread/INFO]: [iCachapa: Changed title display times for 4 players]
+[03:21:40] [Server thread/INFO]: iCachapa issued server command: /gamerule locator_bar false
+[03:21:40] [Server thread/INFO]: [iCachapa: Gamerule locator_bar is now set to: false]
+[03:21:57] [User Authenticator #10/INFO]: UUID of player Iris_Luna is 0940ca81-61cd-3020-9fae-c6a4aa08acd6
+[03:22:20] [Server thread/INFO]: GroxMv fell from a high place
+[03:22:23] [Server thread/INFO]: Iris_Luna joined the game
+[03:22:23] [Server thread/INFO]: Iris_Luna[/127.181.243.58:47131] logged in with entity id 4955 at ([minecraft:overworld]29.5, 64.0, -32.5)
+[03:22:23] [Server thread/INFO]: [AuthMe] Iris_Luna registered 127.181.243.58
+[03:22:23] [Craft Scheduler Thread - 47 - AuthMe/INFO]: [AuthMe] Iris_Luna logged in 127.181.243.58
+[03:22:26] [Server thread/INFO]: GroxMv lost connection: Disconnected
+[03:22:26] [Server thread/INFO]: [voicechat] Disconnecting client GroxMv
+[03:22:26] [Server thread/INFO]: GroxMv left the game
+[03:22:30] [Async Chat Thread - #0/INFO]: [Not Secure] <Iris_Luna> scorro
+[03:22:47] [Server thread/INFO]: iCachapa issued server command: /title @a title "\u23E1"
+[03:22:47] [Server thread/INFO]: [iCachapa: Showing new title for 4 players]
+[03:22:51] [Async Chat Thread - #0/INFO]: [Not Secure] <Iris_Luna> wtfd
+[03:22:54] [Async Chat Thread - #0/INFO]: [Not Secure] <mong3_> kkkkkkkkk
+[03:22:54] [Async Chat Thread - #0/INFO]: [Not Secure] <iCachapa> xd
+[03:22:58] [Async Chat Thread - #0/INFO]: [Not Secure] <elevenzzk> bro
+[03:23:01] [Async Chat Thread - #0/INFO]: [Not Secure] <iCachapa> xd
+[03:23:05] [Server thread/INFO]: iCachapa issued server command: /title @a title "\u23E1"
+[03:23:05] [Server thread/INFO]: [iCachapa: Showing new title for 4 players]
+[03:23:05] [Async Chat Thread - #0/INFO]: [Not Secure] <Iris_Luna> 3 creepérs
+[03:23:07] [Async Chat Thread - #0/INFO]: [Not Secure] <Iris_Luna> sai
+[03:23:10] [Async Chat Thread - #0/INFO]: [Not Secure] <Iris_Luna> dsigrama
+[03:23:11] [Async Chat Thread - #0/INFO]: [Not Secure] <mong3_> kkkkkkkkk
+[03:23:13] [Async Chat Thread - #0/INFO]: [Not Secure] <iCachapa> kakakaka
+[03:23:14] [Server thread/INFO]: elevenzzk has made the advancement [Best Friends Forever]
+[03:23:15] [Async Chat Thread - #1/INFO]: [Not Secure] <Iris_Luna> mds gente
+[03:23:16] [Async Chat Thread - #1/INFO]: [Not Secure] <mong3_> tamo jogando cs kk
+[03:23:19] [Async Chat Thread - #1/INFO]: [Not Secure] <Iris_Luna> entrei no servidor agora
+[03:23:26] [Async Chat Thread - #1/INFO]: [Not Secure] <Iris_Luna> me da tp ate tu monge
+[03:23:39] [Server thread/INFO]: Iris_Luna issued server command: /tpa Iris_Luna
+[03:23:41] [Async Chat Thread - #1/INFO]: [Not Secure] <mong3_> eu n sou dono D: >
+[03:23:42] [Server thread/INFO]: Iris_Luna issued server command: /tpa mong3_
+[03:23:47] [Server thread/INFO]: mong3_ issued server command: /tpaccept
+[03:23:48] [Async Chat Thread - #1/INFO]: [Not Secure] <iCachapa> tem tpa
+[03:23:50] [Async Chat Thread - #1/INFO]: [Not Secure] <Iris_Luna> laguei
+[03:23:57] [Async Chat Thread - #1/INFO]: [Not Secure] <Iris_Luna> krl 200 de ping
+[03:24:01] [Async Chat Thread - #1/INFO]: [Not Secure] <Iris_Luna> oq
+[03:24:10] [Server thread/INFO]: Iris_Luna has made the advancement [Stone Age]
+[03:24:19] [Async Chat Thread - #1/INFO]: [Not Secure] <Iris_Luna> ces me deixaram na call la sozinho
+[03:24:23] [Async Chat Thread - #1/INFO]: [Not Secure] <Iris_Luna> eu fui logar na conta
+[03:24:31] [Async Chat Thread - #1/INFO]: [Not Secure] <mong3_> abre o voice mod
+[03:24:35] [Async Chat Thread - #1/INFO]: [Not Secure] <Iris_Luna> ah
+[03:24:37] [Async Chat Thread - #1/INFO]: [Not Secure] <Iris_Luna> tem voice mod é
+[03:24:38] [Async Chat Thread - #1/INFO]: [Not Secure] <mong3_> kkkk
+[03:24:42] [Async Chat Thread - #1/INFO]: [Not Secure] <Iris_Luna> n baixei
+[03:24:44] [Async Chat Thread - #1/INFO]: [Not Secure] <Iris_Luna> calma ae
+[03:24:45] [Async Chat Thread - #1/INFO]: [Not Secure] <mong3_> D:
+[03:24:50] [Async Chat Thread - #1/INFO]: [Not Secure] <Iris_Luna> tem no modrinth?
+[03:24:58] [Async Chat Thread - #1/INFO]: [Not Secure] <iCachapa> tem
+[03:25:02] [Async Chat Thread - #1/INFO]: [Not Secure] <Iris_Luna> vo baixar aq
+[03:25:03] [Server thread/INFO]: Iris_Luna lost connection: Disconnected
+[03:25:03] [Server thread/INFO]: [voicechat] Disconnecting client Iris_Luna
+[03:25:03] [Server thread/INFO]: Iris_Luna left the game
+[03:25:05] [Async Chat Thread - #1/INFO]: [Not Secure] <iCachapa> simple voice chat
+[03:25:20] [Server thread/INFO]: iCachapa issued server command: /title @a title "\u23E1"
+[03:25:20] [Server thread/INFO]: [iCachapa: Showing new title for 3 players]
+[03:26:30] [Server thread/INFO]: [iCachapa: Set own game mode to Creative Mode]
+[03:26:34] [Server thread/INFO]: mong3_ issued server command: /sit
+[03:26:48] [Server thread/INFO]: iCachapa issued server command: /flyspeed
+[03:26:50] [Server thread/INFO]: iCachapa issued server command: /flyspeed 5
+[03:27:36] [Server thread/INFO]: mong3_ issued server command: /tpa elevenzzk
+[03:27:47] [Server thread/INFO]: elevenzzk issued server command: /tpaccept
+[03:27:54] [Server thread/INFO]: iCachapa issued server command: /fill 424 79 -191 424 50 -300 minecraft:tnt
+[03:27:54] [Server thread/INFO]: [iCachapa: Successfully filled 3300 block(s)]
+[03:28:08] [Server thread/INFO]: iCachapa issued server command: /tp mong3_ iCachapa
+[03:29:15] [Server thread/INFO]: [iCachapa: Set own game mode to Survival Mode]
+[03:29:36] [Server thread/INFO]: iCachapa issued server command: /pingall
+[03:30:58] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player 9ca17b60-8c4e-356a-a4d3-249aecb61cf2 timed out
+[03:30:58] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Reconnecting player mong3_
+[03:30:58] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Sent secret to mong3_
+[03:31:03] [Server thread/INFO]: mong3_ was kicked due to keepalive timeout!
+[03:31:03] [Server thread/INFO]: mong3_ lost connection: Timed out
+[03:31:03] [Server thread/INFO]: [voicechat] Disconnecting client mong3_
+[03:31:03] [Server thread/INFO]: mong3_ left the game
+[03:32:07] [User Authenticator #11/INFO]: UUID of player mong3_ is 9ca17b60-8c4e-356a-a4d3-249aecb61cf2
+[03:32:13] [Server thread/INFO]: mong3_ joined the game
+[03:32:13] [Server thread/INFO]: mong3_[/127.209.223.213:52353] logged in with entity id 25128 at ([minecraft:overworld]432.6902322378961, 20.0, -197.52149691522854)
+[03:32:14] [Craft Scheduler Thread - 67 - AuthMe/INFO]: [AuthMe] mong3_ logged in 127.209.223.213
+[03:32:14] [Server thread/INFO]: [voicechat] Received secret request of mong3_ (20)
+[03:32:14] [Server thread/INFO]: [voicechat] Sent secret to mong3_
+[03:32:15] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 9ca17b60-8c4e-356a-a4d3-249aecb61cf2
+[03:32:16] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 9ca17b60-8c4e-356a-a4d3-249aecb61cf2
+[03:32:16] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player mong3_ (9ca17b60-8c4e-356a-a4d3-249aecb61cf2) successfully connected to voice chat
+[03:32:48] [User Authenticator #12/INFO]: UUID of player Iris_Luna is 0940ca81-61cd-3020-9fae-c6a4aa08acd6
+[03:33:04] [Server thread/INFO]: Iris_Luna joined the game
+[03:33:04] [Server thread/INFO]: Iris_Luna[/127.181.243.58:42425] logged in with entity id 25312 at ([minecraft:overworld]23.57704779404606, 56.0, -74.21706844125542)
+[03:33:04] [Craft Scheduler Thread - 71 - AuthMe/INFO]: [AuthMe] Iris_Luna logged in 127.181.243.58
+[03:33:04] [Server thread/INFO]: [voicechat] Received secret request of Iris_Luna (20)
+[03:33:04] [Server thread/INFO]: [voicechat] Sent secret to Iris_Luna
+[03:33:04] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 0940ca81-61cd-3020-9fae-c6a4aa08acd6
+[03:33:05] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 0940ca81-61cd-3020-9fae-c6a4aa08acd6
+[03:33:05] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Iris_Luna (0940ca81-61cd-3020-9fae-c6a4aa08acd6) successfully connected to voice chat
+[03:33:09] [Async Chat Thread - #3/INFO]: [Not Secure] <Iris_Luna> iris tava dando erro
+[03:33:11] [Async Chat Thread - #3/INFO]: [Not Secure] <Iris_Luna> fui trocar a versao
+[03:33:24] [Async Chat Thread - #3/INFO]: [Not Secure] <Iris_Luna> eu
+[03:33:31] [Server thread/INFO]: [iCachapa: Set own game mode to Creative Mode]
+[03:33:38] [Server thread/INFO]: [iCachapa: Set own game mode to Survival Mode]
+[03:33:41] [Async Chat Thread - #3/INFO]: [Not Secure] <Iris_Luna> lumoryn
+[03:33:56] [Async Chat Thread - #3/INFO]: [Not Secure] <Iris_Luna> tava
+[03:33:59] [Async Chat Thread - #3/INFO]: [Not Secure] <Iris_Luna> eu fui baixar o voice mod
+[03:34:05] [Server thread/INFO]: Iris_Luna has made the advancement [Getting an Upgrade]
+[03:34:39] [Server thread/INFO]: Iris_Luna issued server command: /tpa mong3_
+[03:34:43] [Server thread/INFO]: mong3_ issued server command: /tpaccept
+[03:34:55] [Async Chat Thread - #3/INFO]: [Not Secure] <Iris_Luna> pistao
+[03:35:07] [Async Chat Thread - #3/INFO]: [Not Secure] <Iris_Luna> a do creeper?
+[03:35:09] [Async Chat Thread - #3/INFO]: [Not Secure] <Iris_Luna> de 2011
+[03:35:11] [Async Chat Thread - #3/INFO]: [Not Secure] <Iris_Luna> eu tb amo ela
+[03:35:28] [Async Chat Thread - #3/INFO]: [Not Secure] <Iris_Luna> eu vim sem nada
+[03:35:36] [Async Chat Thread - #3/INFO]: [Not Secure] <Iris_Luna> pq esse sever tem textura?
+[03:35:51] [Async Chat Thread - #3/INFO]: [Not Secure] <Iris_Luna> a textura n muda todos os blocos
+[03:35:59] [Async Chat Thread - #3/INFO]: [Not Secure] <Iris_Luna> ata
+[03:36:15] [Async Chat Thread - #3/INFO]: [Not Secure] <Iris_Luna> tendi
+[03:36:20] [Async Chat Thread - #3/INFO]: [Not Secure] <Iris_Luna> wtf
+[03:36:22] [Async Chat Thread - #3/INFO]: [Not Secure] <Iris_Luna> eu subi em cima do cara
+[03:36:44] [Server thread/INFO]: mong3_ has made the advancement [Acquire Hardware]
+[03:37:09] [Server thread/INFO]: mong3_ has made the advancement [Isn't It Iron Pick]
+[03:37:19] [Server thread/INFO]: Iris_Luna has made the advancement [Acquire Hardware]
+[03:37:22] [Server thread/INFO]: mong3_ has made the advancement [Diamonds!]
+[03:37:29] [Server thread/INFO]: Iris_Luna has made the advancement [Isn't It Iron Pick]
+[03:37:39] [Async Chat Thread - #4/INFO]: [Not Secure] <Iris_Luna> anem
+[03:37:41] [Async Chat Thread - #4/INFO]: [Not Secure] <Iris_Luna> ce pego os dima
+[03:37:52] [Async Chat Thread - #4/INFO]: [Not Secure] <Iris_Luna> nada
+[03:37:55] [Async Chat Thread - #4/INFO]: [Not Secure] <Iris_Luna> muda nada no jogo KKK
+[03:37:58] [Async Chat Thread - #4/INFO]: [Not Secure] <Iris_Luna> é so uma capa po
+[03:38:01] [Server thread/INFO]: iCachapa has made the advancement [Acquire Hardware]
+[03:38:11] [Async Chat Thread - #4/INFO]: [Not Secure] <Iris_Luna> nao, eu viajei com meu tio na epoca
+[03:38:19] [Server thread/INFO]: Iris_Luna has made the advancement [Diamonds!]
+[03:38:28] [Async Chat Thread - #4/INFO]: [Not Secure] <Iris_Luna> c quer os dima n?
+[03:38:42] [Server thread/INFO]: iCachapa issued server command: /playsound minecraft:entity.creeper.primed ambient @a ~ ~ ~ 100 1 1
+[03:38:42] [Server thread/INFO]: [iCachapa: Played sound minecraft:entity.creeper.primed to 4 players]
+[03:38:52] [Async Chat Thread - #4/INFO]: [Not Secure] <Iris_Luna> eu escutei
+[03:39:18] [Server thread/INFO]: Iris_Luna has made the advancement [Monster Hunter]
+[03:39:20] [Server thread/INFO]: iCachapa issued server command: /playsound eventos:terror.instupendo ambient @a ~ ~ ~ 100 1 1
+[03:39:20] [Server thread/INFO]: [iCachapa: Played sound eventos:terror.instupendo to 4 players]
+[03:39:39] [Server thread/INFO]: iCachapa issued server command: /stopsound @a
+[03:39:39] [Server thread/INFO]: [iCachapa: Stopped all sounds]
+[03:39:44] [Server thread/INFO]: iCachapa has made the advancement [Suit Up]
+[03:40:22] [Async Chat Thread - #6/INFO]: [Not Secure] <Iris_Luna> tava bebendo agua
+[03:40:26] [Async Chat Thread - #6/INFO]: [Not Secure] <Iris_Luna> q susto
+[03:40:28] [Server thread/INFO]: iCachapa has made the advancement [Isn't It Iron Pick]
+[03:41:15] [Server thread/INFO]: elevenzzk issued server command: /tpa mong3_
+[03:41:16] [Server thread/INFO]: iCachapa issued server command: /title @a times 3s 5s 3s
+[03:41:16] [Server thread/INFO]: [iCachapa: Changed title display times for 4 players]
+[03:41:17] [Server thread/INFO]: mong3_ issued server command: /tpaccept
+[03:41:26] [Server thread/INFO]: iCachapa issued server command: /title @a title '⏧'
+[03:41:26] [Server thread/INFO]: [iCachapa: Showing new title for 4 players]
+[03:41:32] [Async Chat Thread - #8/INFO]: [Not Secure] <Iris_Luna> ah vei
+[03:41:37] [Async Chat Thread - #8/INFO]: [Not Secure] <Iris_Luna> fudeu
+[03:41:38] [Async Chat Thread - #8/INFO]: [Not Secure] <Iris_Luna> rtia
+[03:41:55] [Async Chat Thread - #8/INFO]: [Not Secure] <Iris_Luna> qm é o gay q ta fazendo isso
+[03:41:58] [Async Chat Thread - #8/INFO]: [Not Secure] <Iris_Luna> KKKKKKKKK
+[03:42:03] [User Authenticator #13/INFO]: UUID of player yhztx is 25e5188e-f68b-3b3b-8e15-54534233ef82
+[03:42:28] [Server thread/INFO]: mong3_ was slain by Wolf
+[03:42:31] [Async Chat Thread - #8/INFO]: [Not Secure] <Iris_Luna> M,DS
+[03:42:32] [Async Chat Thread - #8/INFO]: [Not Secure] <Iris_Luna> kkkkkkkkkkkkk
+[03:42:33] [Server thread/INFO]: mong3_ issued server command: /tpa elevenzzk
+[03:42:34] [Async Chat Thread - #8/INFO]: [Not Secure] <Iris_Luna> COMO
+[03:42:39] [Async Chat Thread - #8/INFO]: [Not Secure] <mong3_> ...
+[03:42:40] [Server thread/INFO]: elevenzzk issued server command: /tpaccept
+[03:42:41] [Server thread/INFO]: iCachapa has made the advancement [Not Today, Thank You]
+[03:42:45] [Async Chat Thread - #8/INFO]: [Not Secure] <Iris_Luna> eu to com 15 ferro e 3 carvao
+[03:42:47] [Async Chat Thread - #8/INFO]: [Not Secure] <Iris_Luna> ta fd de carvao
+[03:43:18] [Server thread/INFO]: iCachapa issued server command: /pingall
+[03:43:18] [Server thread/INFO]: yhztx joined the game
+[03:43:18] [Server thread/INFO]: yhztx[/127.142.44.173:48273] logged in with entity id 28442 at ([minecraft:overworld]37.5, 69.0, -25.5)
+[03:43:18] [Server thread/INFO]: [AuthMe] yhztx registered 127.142.44.173
+[03:43:18] [Craft Scheduler Thread - 87 - AuthMe/INFO]: [AuthMe] yhztx logged in 127.142.44.173
+[03:43:20] [Server thread/INFO]: [voicechat] Received secret request of yhztx (20)
+[03:43:20] [Server thread/INFO]: [voicechat] Sent secret to yhztx
+[03:43:29] [Async Chat Thread - #8/INFO]: [Not Secure] <Iris_Luna> to com 200 de ms
+[03:43:31] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 25e5188e-f68b-3b3b-8e15-54534233ef82
+[03:43:32] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 25e5188e-f68b-3b3b-8e15-54534233ef82
+[03:43:32] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player yhztx (25e5188e-f68b-3b3b-8e15-54534233ef82) successfully connected to voice chat
+[03:43:47] [Async Chat Thread - #8/INFO]: [Not Secure] <elevenzzk> chora nao
+[03:43:51] [Server thread/INFO]: Iris_Luna has made the advancement [Suit Up]
+[03:43:57] [Server thread/INFO]: yhztx was kicked due to keepalive timeout!
+[03:43:57] [Server thread/INFO]: yhztx lost connection: Timed out
+[03:43:57] [Server thread/INFO]: [voicechat] Disconnecting client yhztx
+[03:43:57] [Server thread/INFO]: yhztx left the game
+[03:44:16] [Server thread/INFO]: iCachapa has made the advancement [Diamonds!]
+[03:44:28] [Server thread/INFO]: Iris_Luna has made the advancement [The Cutest Predator]
+[03:44:31] [User Authenticator #14/INFO]: UUID of player yhztx is 25e5188e-f68b-3b3b-8e15-54534233ef82
+[03:44:56] [Server thread/INFO]: yhztx joined the game
+[03:44:56] [Server thread/INFO]: yhztx[/127.142.44.173:50449] logged in with entity id 29440 at ([minecraft:overworld]38.304092059363946, 69.0, -26.55262352583596)
+[03:44:56] [Craft Scheduler Thread - 95 - AuthMe/INFO]: [AuthMe] yhztx logged in 127.142.44.173
+[03:44:56] [Server thread/INFO]: [voicechat] Received secret request of yhztx (20)
+[03:44:56] [Server thread/INFO]: [voicechat] Sent secret to yhztx
+[03:44:56] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 25e5188e-f68b-3b3b-8e15-54534233ef82
+[03:44:57] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 25e5188e-f68b-3b3b-8e15-54534233ef82
+[03:44:57] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player yhztx (25e5188e-f68b-3b3b-8e15-54534233ef82) successfully connected to voice chat
+[03:45:13] [Server thread/INFO]: elevenzzk has made the advancement [The Cutest Predator]
+[03:45:33] [Async Chat Thread - #10/INFO]: [Not Secure] <Iris_Luna> icachapa
+[03:45:45] [Async Chat Thread - #10/INFO]: [Not Secure] <iCachapa> fala
+[03:45:47] [Async Chat Thread - #10/INFO]: [Not Secure] <Iris_Luna> c tem algum codigo dessa moonlight ou da crafter?
+[03:45:48] [Async Chat Thread - #10/INFO]: [Not Secure] <Iris_Luna> eu pago
+[03:45:56] [Async Chat Thread - #10/INFO]: [Not Secure] <iCachapa> nao
+[03:45:58] [Async Chat Thread - #10/INFO]: [Not Secure] <iCachapa> wu comprei
+[03:45:59] [Async Chat Thread - #10/INFO]: [Not Secure] <Iris_Luna> :(
+[03:46:03] [Async Chat Thread - #10/INFO]: [Not Secure] <Iris_Luna> aonde ce compro
+[03:46:10] [Async Chat Thread - #10/INFO]: [Not Secure] <iCachapa> na eneba
+[03:46:16] [Async Chat Thread - #10/INFO]: [Not Secure] <iCachapa> quase 700 reais
+[03:46:20] [Async Chat Thread - #10/INFO]: [Not Secure] <iCachapa> a moonligth
+[03:46:22] [Async Chat Thread - #10/INFO]: [Not Secure] <Iris_Luna> rlx
+[03:46:36] [Async Chat Thread - #11/INFO]: [Not Secure] <Iris_Luna> eu gasto por mês 2k com figure de anime kkk
+[03:47:54] [Server thread/INFO]: Iris_Luna issued server command: /tpa mong3_
+[03:48:07] [Server thread/INFO]: mong3_ issued server command: /tpaccept
+[03:48:46] [GeyserServerChild-4-1/INFO]: [Geyser-Spigot] Player connected with username FocalLyric8725 (1001)
+[03:48:46] [localSession-7-2/INFO]: [Geyser-Spigot] FocalLyric8725 (logged in as: FocalLyric8725) has connected to the Java server
+[03:48:50] [Async Chat Thread - #12/INFO]: [Not Secure] <Iris_Luna> o adm
+[03:48:52] [Async Chat Thread - #12/INFO]: [Not Secure] <Iris_Luna> da carvao ai
+[03:48:53] [Async Chat Thread - #12/INFO]: [Not Secure] <iCachapa> fala
+[03:49:00] [Server thread/INFO]: iCachapa issued server command: /invsee Iris_Luna
+[03:49:15] [Async Chat Thread - #12/INFO]: [Not Secure] <Iris_Luna> fdudeu
+[03:49:17] [Geyser Spigot connection thread-6-3/INFO]: [floodgate] Floodgate player logged in as .FocalLyric8725 disconnected
+[03:49:17] [localSession-7-2/INFO]: [Geyser-Spigot] FocalLyric8725 has disconnected from the Java server because of §r§fExcedeu o tempo para autenticação
+[03:49:17] [Server thread/INFO]: .FocalLyric8725 (00000000-0000-0000-0009-01f314e68140) lost connection: Excedeu o tempo para autenticação
+[03:49:18] [Async Chat Thread - #12/INFO]: [Not Secure] <Iris_Luna> corre
+[03:49:24] [Async Chat Thread - #12/INFO]: [Not Secure] <Iris_Luna> 2 cora sem food
+[03:49:50] [Async Chat Thread - #12/INFO]: [Not Secure] <Iris_Luna> o adm deu carvao :D
+[03:49:57] [Server thread/INFO]: mong3_ has made the advancement [Suit Up]
+[03:49:58] [Async Chat Thread - #12/INFO]: [Not Secure] <Iris_Luna> tua voz ta baixa
+[03:50:09] [Server thread/INFO]: mong3_ has made the advancement [Cover Me with Diamonds]
+[03:50:15] [Async Chat Thread - #12/INFO]: [Not Secure] <Iris_Luna> coloquei 40 ferro pra esquentar
+[03:50:27] [Server thread/INFO]: elevenzzk has made the advancement [Suit Up]
+[03:50:38] [Server thread/INFO]: iCachapa issued server command: /gamerule allow_entering_nether_using_portals true
+[03:50:38] [Server thread/INFO]: [iCachapa: Gamerule allow_entering_nether_using_portals is now set to: true]
+[03:50:42] [Async Chat Thread - #12/INFO]: [Not Secure] <Iris_Luna> papo de mendigo
+[03:50:45] [Async Chat Thread - #13/INFO]: [Not Secure] <Iris_Luna> meteu stick pra esquentar
+[03:51:18] [Server thread/INFO]: mong3_ has made the advancement [Not Today, Thank You]
+[03:51:20] [Server thread/INFO]: yhztx has made the advancement [Stone Age]
+[03:51:20] [Server thread/INFO]: elevenzzk has made the advancement [Ice Bucket Challenge]
+[03:51:21] [Server thread/INFO]: iCachapa has made the advancement [Hot Stuff]
+[03:51:44] [Async Chat Thread - #13/INFO]: [Not Secure] <Iris_Luna> parece um chines falando
+[03:51:46] [Async Chat Thread - #13/INFO]: [Not Secure] <Iris_Luna> o adm
+[03:51:47] [Async Chat Thread - #13/INFO]: [Not Secure] <Iris_Luna> kkkkkk
+[03:51:59] [Async Chat Thread - #13/INFO]: [Not Secure] <Iris_Luna> la el
+[03:52:08] [Async Chat Thread - #13/INFO]: [Not Secure] <Iris_Luna> o adm
+[03:52:09] [GeyserServerChild-4-2/INFO]: [Geyser-Spigot] Player connected with username FocalLyric8725 (1001)
+[03:52:09] [localSession-7-3/INFO]: [Geyser-Spigot] FocalLyric8725 (logged in as: FocalLyric8725) has connected to the Java server
+[03:52:10] [Async Chat Thread - #13/INFO]: [Not Secure] <Iris_Luna> fala
+[03:52:10] [Server thread/INFO]: elevenzzk has made the advancement [Enchanter]
+[03:52:14] [Async Chat Thread - #13/INFO]: [Not Secure] <Iris_Luna> no tem galantia
+[03:52:23] [Async Chat Thread - #13/INFO]: [Not Secure] <Iris_Luna> KKKKKKKKKKKKKKKKKKKK
+[03:52:30] [Server thread/INFO]: yhztx has made the advancement [Getting an Upgrade]
+[03:52:39] [localSession-7-3/INFO]: [Geyser-Spigot] FocalLyric8725 has disconnected from the Java server because of §r§fExcedeu o tempo para autenticação
+[03:52:39] [Geyser Spigot connection thread-6-4/INFO]: [floodgate] Floodgate player logged in as .FocalLyric8725 disconnected
+[03:52:39] [Server thread/INFO]: .FocalLyric8725 (00000000-0000-0000-0009-01f314e68140) lost connection: Excedeu o tempo para autenticação
+[03:53:08] [Server thread/INFO]: yhztx has made the advancement [Monster Hunter]
+[03:53:09] [Async Chat Thread - #13/INFO]: [Not Secure] <Iris_Luna> sobrou 20
+[03:53:12] [Async Chat Thread - #13/INFO]: [Not Secure] <Iris_Luna> 25
+[03:53:42] [Async Chat Thread - #13/INFO]: [Not Secure] <Iris_Luna> senta e chora
+[03:53:51] [Async Chat Thread - #13/INFO]: [Not Secure] <Iris_Luna> cd oce breu do krtai
+[03:53:53] [Async Chat Thread - #13/INFO]: [Not Secure] <Iris_Luna> ta aq
+[03:54:05] [Server thread/INFO]: Iris_Luna issued server command: /tpa mong3_
+[03:54:06] [Server thread/INFO]: yhztx was slain by Zombie
+[03:54:10] [Server thread/INFO]: iCachapa lost connection: Disconnected
+[03:54:10] [Server thread/INFO]: [voicechat] Disconnecting client iCachapa
+[03:54:10] [Server thread/INFO]: iCachapa left the game
+[03:54:14] [Server thread/INFO]: mong3_ issued server command: /tpaccept
+[03:54:17] [Async Chat Thread - #13/INFO]: [Not Secure] <Iris_Luna> 4 cora
+[03:54:25] [Async Chat Thread - #13/INFO]: [Not Secure] <Iris_Luna> costa
+[03:54:27] [Async Chat Thread - #13/INFO]: [Not Secure] <Iris_Luna> costa tua
+[03:54:28] [Async Chat Thread - #13/INFO]: [Not Secure] <Iris_Luna> 2 zumbi
+[03:54:38] [User Authenticator #15/INFO]: UUID of player iCachapa is e9da21bd-50e3-3436-a4e0-0daf9244b1b9
+[03:54:48] [Server thread/INFO]: mong3_ has made the advancement [Hot Stuff]
+[03:54:50] [Server thread/INFO]: iCachapa (e9da21bd-50e3-3436-a4e0-0daf9244b1b9) lost connection: Disconnected
+[03:54:58] [Server thread/INFO]: [Not Secure] [Server] quero pika
+[03:54:59] [Async Chat Thread - #13/INFO]: [Not Secure] <Iris_Luna> KKKKKKKKKKKKKK
+[03:55:02] [User Authenticator #16/INFO]: UUID of player iCachapa is e9da21bd-50e3-3436-a4e0-0daf9244b1b9
+[03:55:04] [Server thread/INFO]: iCachapa joined the game
+[03:55:04] [Server thread/INFO]: iCachapa[/127.10.142.96:55245] logged in with entity id 35160 at ([minecraft:overworld]572.624691594609, -33.0, -461.7226309252503)
+[03:55:04] [Craft Scheduler Thread - 114 - AuthMe/INFO]: [AuthMe] iCachapa logged in 127.10.142.96
+[03:55:05] [Server thread/INFO]: [voicechat] Received secret request of iCachapa (20)
+[03:55:05] [Server thread/INFO]: [voicechat] Sent secret to iCachapa
+[03:55:05] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player e9da21bd-50e3-3436-a4e0-0daf9244b1b9
+[03:55:05] [Async Chat Thread - #13/INFO]: [Not Secure] <Iris_Luna> la ele
+[03:55:06] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player e9da21bd-50e3-3436-a4e0-0daf9244b1b9
+[03:55:06] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player iCachapa (e9da21bd-50e3-3436-a4e0-0daf9244b1b9) successfully connected to voice chat
+[03:55:10] [Async Chat Thread - #13/INFO]: [Not Secure] <Iris_Luna> adm me da comidaaaaaaaa
+[03:55:12] [Async Chat Thread - #12/INFO]: [Not Secure] <Iris_Luna> 4 cora
+[03:55:27] [Async Chat Thread - #12/INFO]: [Not Secure] <Iris_Luna> VTMNC MONGE
+[03:55:30] [Async Chat Thread - #12/INFO]: [Not Secure] <Iris_Luna> TUÉ DO MEU TIME
+[03:55:31] [Async Chat Thread - #12/INFO]: [Not Secure] <Iris_Luna> KRL
+[03:55:34] [Async Chat Thread - #12/INFO]: [Not Secure] <Iris_Luna> Q MLK FDP KKKKKKKKKKKKKK
+[03:55:37] [Async Chat Thread - #12/INFO]: [Not Secure] <Iris_Luna> vo te taca na lava
+[03:55:42] [Server thread/INFO]: yhztx lost connection: Disconnected
+[03:55:42] [Server thread/INFO]: [voicechat] Disconnecting client yhztx
+[03:55:42] [Server thread/INFO]: yhztx left the game
+[03:56:14] [Async Chat Thread - #12/INFO]: [Not Secure] <Iris_Luna> joga com o pau
+[03:56:20] [Server thread/INFO]: elevenzzk has made the advancement [Hot Stuff]
+[03:56:29] [Async Chat Thread - #12/INFO]: [Not Secure] <Iris_Luna> sabe oq é grande tb?
+[03:56:29] [User Authenticator #17/INFO]: UUID of player LauraGamer is 9eb90fd3-6070-30ce-837a-be4efd7178ff
+[03:56:39] [Async Chat Thread - #12/INFO]: [Not Secure] <Iris_Luna> vsfd
+[03:56:56] [Server thread/INFO]: mong3_ has made the advancement [Ice Bucket Challenge]
+[03:57:03] [Async Chat Thread - #13/INFO]: [Not Secure] <Iris_Luna> viado
+[03:57:04] [Async Chat Thread - #12/INFO]: [Not Secure] <Iris_Luna> 3 cora
+[03:57:06] [Server thread/INFO]: mong3_ has made the advancement [We Need to Go Deeper]
+[03:57:09] [Async Chat Thread - #12/INFO]: [Not Secure] <Iris_Luna> sss
+[03:57:11] [Async Chat Thread - #12/INFO]: [Not Secure] <Iris_Luna> to sem food
+[03:57:11] [Server thread/INFO]: Iris_Luna has made the advancement [We Need to Go Deeper]
+[03:57:28] [Server thread/INFO]: LauraGamer (9eb90fd3-6070-30ce-837a-be4efd7178ff) lost connection: Excedeu o tempo para autenticação
+[03:57:29] [Async Chat Thread - #12/INFO]: [Not Secure] <Iris_Luna> coloca a senha, o cpf e os 3 numero de tras do cartao
+[03:57:44] [User Authenticator #18/INFO]: UUID of player LauraGamer is 9eb90fd3-6070-30ce-837a-be4efd7178ff
+[03:58:11] [Server thread/INFO]: Iris_Luna tried to swim in lava
+[03:58:14] [Async Chat Thread - #12/INFO]: [Not Secure] <mong3_> lixo
+[03:58:15] [Server thread/INFO]: elevenzzk has made the advancement [We Need to Go Deeper]
+[03:58:17] [Server thread/INFO]: Iris_Luna issued server command: /tpa mong3_
+[03:58:19] [Async Chat Thread - #12/INFO]: [Not Secure] <Iris_Luna> KKKKKKKKKKKKKKKKKKKKKKKKKKKKK
+[03:58:21] [Async Chat Thread - #13/INFO]: [Not Secure] <mong3_> obg pelos itens
+[03:58:23] [Server thread/INFO]: LauraGamer joined the game
+[03:58:23] [Server thread/INFO]: LauraGamer[/127.203.227.245:43029] logged in with entity id 36640 at ([minecraft:overworld]41.5, 68.0, -40.5)
+[03:58:23] [Server thread/INFO]: [AuthMe] LauraGamer registered 127.203.227.245
+[03:58:23] [Craft Scheduler Thread - 125 - AuthMe/INFO]: [AuthMe] LauraGamer logged in 127.203.227.245
+[03:58:25] [Async Chat Thread - #13/INFO]: [Not Secure] <Iris_Luna> KKKKKKKKKKKKKKKKKKKKKK
+[03:58:29] [Async Chat Thread - #13/INFO]: [Not Secure] <Iris_Luna> EU SABIA Q ELE IA METER ESSA
+[03:58:30] [Async Chat Thread - #12/INFO]: [Not Secure] <Iris_Luna> KKKKKKKKKKKKKKKKKKKKKKKKKKKK
+[03:58:33] [Server thread/INFO]: mong3_ issued server command: /tpaccept
+[03:58:51] [Server thread/INFO]: LauraGamer issued server command: /tpa iCachapa
+[03:59:00] [Server thread/INFO]: iCachapa issued server command: /tpaccept
+[03:59:03] [Server thread/INFO]: Iris_Luna issued server command: /tpa mo
+[03:59:06] [Server thread/INFO]: mong3_ issued server command: /tpaccept
+[03:59:19] [Async Chat Thread - #12/INFO]: [Not Secure] <Iris_Luna> olha minha tela
+[03:59:19] [Server thread/INFO]: mong3_ has made the advancement [Enchanter]
+[03:59:23] [Async Chat Thread - #12/INFO]: [Not Secure] <Iris_Luna> a obsidian ta bonitona
+[03:59:25] [Async Chat Thread - #12/INFO]: [Not Secure] <Iris_Luna> TIRAAA
+[03:59:28] [Async Chat Thread - #12/INFO]: [Not Secure] <Iris_Luna> TIRAAA Q EU VO CAGAR
+[03:59:30] [Async Chat Thread - #12/INFO]: [Not Secure] <Iris_Luna> KLKKKJJJK
+[03:59:40] [Async Chat Thread - #12/INFO]: [Not Secure] <Iris_Luna> to com raytracing
+[03:59:41] [Async Chat Thread - #12/INFO]: [Not Secure] <Iris_Luna> olha tela
+[03:59:44] [Server thread/INFO]: LauraGamer has made the advancement [Monster Hunter]
+[03:59:53] [Server thread/INFO]: LauraGamer issued server command: /tpa iCachapa
+[03:59:59] [Async Chat Thread - #12/INFO]: [Not Secure] <Iris_Luna> dropa uma ender
+[03:59:59] [Server thread/INFO]: iCachapa issued server command: /tpaccept
+[04:00:18] [Server thread/INFO]: iCachapa has made the advancement [Cover Me with Diamonds]
+[04:00:31] [Async Chat Thread - #12/INFO]: [Not Secure] <Iris_Luna> KKKKKKKKK
+[04:00:37] [Async Chat Thread - #12/INFO]: [Not Secure] <Iris_Luna> se muta monge
+[04:00:41] [Async Chat Thread - #12/INFO]: [Not Secure] <Iris_Luna> tu ta dando double voice
+[04:00:43] [Async Chat Thread - #12/INFO]: [Not Secure] <Iris_Luna> no dc
+[04:00:49] [Async Chat Thread - #13/INFO]: [Not Secure] <Iris_Luna> teu mc ta ligado
+[04:00:56] [Async Chat Thread - #13/INFO]: [Not Secure] <Iris_Luna> att
+[04:01:08] [Async Chat Thread - #13/INFO]: [Not Secure] <Iris_Luna> olha tela monge
+[04:01:12] [Server thread/INFO]: LauraGamer has made the advancement [Suit Up]
+[04:01:34] [Async Chat Thread - #13/INFO]: [Not Secure] <Iris_Luna> eu q fiz essa
+[04:01:38] [Async Chat Thread - #13/INFO]: [Not Secure] <Iris_Luna> é 1024x
+[04:02:09] [Async Chat Thread - #13/INFO]: [Not Secure] <Iris_Luna> ce quer testar minha textura dps?
+[04:02:15] [Server thread/INFO]: LauraGamer issued server command: /tpa Iris_Luna
+[04:02:18] [Async Chat Thread - #13/INFO]: [Not Secure] <Iris_Luna> calma, olha tela
+[04:02:22] [Server thread/INFO]: Iris_Luna lost connection: Disconnected
+[04:02:22] [Server thread/INFO]: [voicechat] Disconnecting client Iris_Luna
+[04:02:22] [Server thread/INFO]: Iris_Luna left the game
+[04:02:33] [Server thread/INFO]: LauraGamer issued server command: /tpa mong3_
+[04:02:37] [Server thread/INFO]: mong3_ issued server command: /tpaccept
+[04:03:25] [Server thread/INFO]: LauraGamer has made the advancement [We Need to Go Deeper]
+[04:03:46] [Server thread/INFO]: LauraGamer has made the advancement [Getting an Upgrade]
+[04:04:21] [Server thread/INFO]: LauraGamer has made the advancement [Stone Age]
+[04:05:05] [Async Chat Thread - #14/INFO]: [Not Secure] <elevenzzk> TEM COMIDA
+[04:06:03] [Server thread/INFO]: elevenzzk has made the advancement [A Terrible Fortress]
+[04:06:03] [Server thread/INFO]: mong3_ has made the advancement [A Terrible Fortress]
+[04:06:04] [Server thread/INFO]: iCachapa issued server command: /tpa mong3_
+[04:06:10] [Server thread/INFO]: LauraGamer issued server command: /tpa mong3_
+[04:06:17] [Server thread/INFO]: mong3_ issued server command: /tpaccept
+[04:06:23] [Server thread/INFO]: iCachapa issued server command: /pingall
+[04:06:28] [Async Chat Thread - #16/INFO]: [Not Secure] <elevenzzk> Da um pouco de comida monge
+[04:06:41] [User Authenticator #19/INFO]: UUID of player Iris_Luna is 0940ca81-61cd-3020-9fae-c6a4aa08acd6
+[04:06:52] [Server thread/INFO]: iCachapa issued server command: /tpa mong3_
+[04:06:57] [Server thread/INFO]: Iris_Luna joined the game
+[04:06:57] [Server thread/INFO]: Iris_Luna[/127.181.243.58:39733] logged in with entity id 39538 at ([minecraft:overworld]334.5748250783674, -9.0, -46.66460130963966)
+[04:06:57] [Craft Scheduler Thread - 141 - AuthMe/INFO]: [AuthMe] Iris_Luna logged in 127.181.243.58
+[04:06:58] [Server thread/INFO]: LauraGamer has made the advancement [A Terrible Fortress]
+[04:06:58] [Server thread/INFO]: [voicechat] Received secret request of Iris_Luna (20)
+[04:06:58] [Server thread/INFO]: [voicechat] Sent secret to Iris_Luna
+[04:06:58] [Server thread/INFO]: mong3_ issued server command: /tpaccept
+[04:06:58] [Server thread/INFO]: iCachapa has made the advancement [We Need to Go Deeper]
+[04:06:59] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully authenticated player 0940ca81-61cd-3020-9fae-c6a4aa08acd6
+[04:07:00] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Successfully validated connection of player 0940ca81-61cd-3020-9fae-c6a4aa08acd6
+[04:07:00] [VoiceChatPacketProcessingThread/INFO]: [voicechat] Player Iris_Luna (0940ca81-61cd-3020-9fae-c6a4aa08acd6) successfully connected to voice chat
+[04:07:02] [Async Chat Thread - #16/INFO]: [Not Secure] <Iris_Luna> olha tela monge
+[04:07:05] [Server thread/INFO]: mong3_ issued server command: /tpaccept
+[04:07:11] [Server thread/INFO]: elevenzzk tried to swim in lava to escape mong3_
+[04:07:27] [Server thread/INFO]: Iris_Luna issued server command: /tpa mong3_
+[04:07:28] [Server thread/INFO]: mong3_ issued server command: /tpaccept
+[04:07:34] [Server thread/INFO]: elevenzzk issued server command: /tpa mong3_
+[04:07:34] [Async Chat Thread - #16/INFO]: [Not Secure] <Iris_Luna> olha tela
+[04:07:40] [Server thread/INFO]: mong3_ issued server command: /tpaccept
+[04:08:39] [Server thread/INFO]: elevenzzk has made the advancement [Into Fire]
+[04:08:51] [Server thread/INFO]: iCachapa has made the advancement [A Terrible Fortress]
+[04:09:26] [Server thread/INFO]: iCachapa has made the advancement [Into Fire]
+[04:10:55] [Async Chat Thread - #18/INFO]: [Not Secure] <Iris_Luna> ou vo dormir flws
+[04:10:58] [Async Chat Thread - #18/INFO]: [Not Secure] <Iris_Luna> tmj
+[04:11:00] [Server thread/INFO]: Iris_Luna lost connection: Disconnected
+[04:11:00] [Server thread/INFO]: [voicechat] Disconnecting client Iris_Luna
+[04:11:00] [Server thread/INFO]: Iris_Luna left the game
+[04:11:06] [Server thread/INFO]: mong3_ fell from a high place
+[04:11:12] [Server thread/INFO]: mong3_ issued server command: /tpa elevenzzk
+[04:11:29] [Server thread/INFO]: mong3_ issued server command: /tpa elevenzzk
+[04:11:33] [Async Chat Thread - #18/INFO]: [Not Secure] <mong3_> aceitaa
+[04:11:38] [Async Chat Thread - #18/INFO]: [Not Secure] <mong3_> o tp
+[04:11:40] [Async Chat Thread - #18/INFO]: [Not Secure] <mong3_> elevenzzk
+[04:11:51] [Async Chat Thread - #19/INFO]: [Not Secure] <mong3_> tem q escrever /tpaccept
+[04:12:07] [Server thread/INFO]: mong3_ issued server command: /tpa iCachapa
+[04:12:19] [Server thread/INFO]: mong3_ issued server command: /tpa LauraGamer
+[04:12:28] [Server thread/INFO]: LauraGamer issued server command: /tpaccept
+[04:14:09] [Server thread/INFO]: mong3_ issued server command: /tpa LauraGamer
+[04:14:18] [Server thread/INFO]: LauraGamer issued server command: /tpaccept
+[04:14:39] [Server thread/INFO]: mong3_ has made the advancement [Into Fire]
+[04:17:54] [Server thread/INFO]: mong3_ withered away
+[04:17:59] [Server thread/INFO]: mong3_ issued server command: /tpa LauraGamer
+[04:18:01] [Server thread/INFO]: mong3_ issued server command: /tpa iCachapa
+[04:18:04] [Server thread/INFO]: iCachapa issued server command: /tpaccept
+[04:18:10] [Server thread/INFO]: LauraGamer issued server command: /tpaccept
+[04:19:08] [Server thread/INFO]: LauraGamer tried to swim in lava
+[04:20:39] [Async Chat Thread - #20/INFO]: [Not Secure] <mong3_> to no bioma de enderman
+[04:20:41] [Async Chat Thread - #20/INFO]: [Not Secure] <mong3_> se quiserem vir
+[04:20:41] [Server thread/INFO]: LauraGamer was slain by Zombie
+[04:20:43] [Async Chat Thread - #20/INFO]: [Not Secure] <mong3_> da tp
+[04:20:54] [Server thread/INFO]: LauraGamer was shot by Skeleton
+[04:21:05] [Server thread/INFO]: mong3_ issued server command: /sethome 1
+[04:21:10] [Server thread/INFO]: mong3_ issued server command: /home 1
+[04:21:13] [Server thread/INFO]: mong3_ fell from a high place
+[04:21:16] [Server thread/INFO]: mong3_ issued server command: /home 1
+[04:21:22] [Server thread/INFO]: elevenzzk has made the advancement [Cover Me with Diamonds]
+[04:23:03] [Async Chat Thread - #22/INFO]: [Not Secure] <iCachapa> cade vc
+[04:24:10] [Server thread/INFO]: iCachapa issued server command: /pingall
+[04:24:28] [Server thread/INFO]: iCachapa issued server command: /tpa elevenzzk
+[04:24:42] [Server thread/INFO]: elevenzzk issued server command: /tpaccept
+[04:27:33] [Server thread/INFO]: iCachapa issued server command: /ram
+[04:27:34] [Server thread/INFO]: mong3_ issued server command: /delhome 1
+[04:27:36] [Server thread/INFO]: mong3_ issued server command: /sethome 1
+[04:27:57] [Server thread/INFO]: mong3_ tried to swim in lava
+[04:28:03] [Server thread/INFO]: mong3_ issued server command: /home 1
+[04:29:33] [Server thread/INFO]: mong3_ has made the advancement [Take Aim]
+[04:29:36] [Server thread/INFO]: elevenzzk was shot by mong3_
+[04:29:50] [Server thread/INFO]: elevenzzk issued server command: /tpa mong3_
+[04:29:55] [Server thread/INFO]: mong3_ issued server command: /tpaccept
+[04:32:51] [Server thread/INFO]: iCachapa issued server command: /pingall
+[04:34:33] [Server thread/INFO]: elevenzzk issued server command: /tpa iCachapa
+[04:35:04] [Server thread/INFO]: elevenzzk issued server command: /tpa mong3_
+[04:35:06] [Server thread/INFO]: mong3_ issued server command: /tpaccept
+[04:35:58] [Server thread/INFO]: iCachapa issued server command: /tp elevenzzk
+[04:36:34] [Server thread/INFO]: LauraGamer lost connection: Timed out
+[04:36:34] [Server thread/INFO]: [voicechat] Disconnecting client LauraGamer
+[04:36:34] [Server thread/INFO]: LauraGamer left the game
+[04:36:46] [Server thread/INFO]: elevenzzk tried to swim in lava
+[04:36:53] [Server thread/INFO]: elevenzzk issued server command: /tpa iCachapa
+[04:37:00] [Server thread/INFO]: iCachapa issued server command: /tpaccept
+[04:37:49] [Server thread/INFO]: iCachapa tried to swim in lava
+[04:37:53] [Server thread/INFO]: iCachapa issued server command: /tp elevenzzk
+[04:38:06] [Server thread/INFO]: mong3_ tried to swim in lava
+[04:38:16] [Server thread/INFO]: mong3_ issued server command: /tpa elevenzzk
+[04:38:17] [Server thread/INFO]: elevenzzk issued server command: /tpaccept

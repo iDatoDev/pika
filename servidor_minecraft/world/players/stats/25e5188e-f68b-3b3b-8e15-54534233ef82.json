@@ -1,0 +1,65 @@
+{
+  "stats": {
+    "minecraft:crafted": {
+      "minecraft:stick": 8,
+      "minecraft:torch": 4,
+      "minecraft:wooden_pickaxe": 1,
+      "minecraft:stone_axe": 1,
+      "minecraft:spruce_planks": 24,
+      "minecraft:stone_pickaxe": 1,
+      "minecraft:crafting_table": 1
+    },
+    "minecraft:mined": {
+      "minecraft:short_grass": 1,
+      "minecraft:torch": 1,
+      "minecraft:spruce_log": 7,
+      "minecraft:crafting_table": 1,
+      "minecraft:coal_ore": 1,
+      "minecraft:stone": 20
+    },
+    "minecraft:custom": {
+      "minecraft:interact_with_crafting_table": 4,
+      "minecraft:time_since_rest": 1457,
+      "minecraft:walk_one_cm": 29399,
+      "minecraft:leave_game": 2,
+      "minecraft:mob_kills": 2,
+      "minecraft:damage_taken": 485,
+      "minecraft:damage_dealt": 458,
+      "minecraft:play_time": 13232,
+      "minecraft:jump": 158,
+      "minecraft:time_since_death": 1238,
+      "minecraft:sprint_one_cm": 10418,
+      "minecraft:fall_one_cm": 3710,
+      "minecraft:total_world_time": 13232,
+      "minecraft:fly_one_cm": 26155,
+      "minecraft:walk_on_water_one_cm": 1609,
+      "minecraft:crouch_one_cm": 173,
+      "minecraft:sneak_time": 35,
+      "minecraft:deaths": 1
+    },
+    "minecraft:picked_up": {
+      "minecraft:spruce_log": 6,
+      "minecraft:coal": 1,
+      "minecraft:cobblestone": 20,
+      "minecraft:bow": 1,
+      "minecraft:crafting_table": 1,
+      "minecraft:torch": 1,
+      "minecraft:bone": 1,
+      "minecraft:arrow": 2
+    },
+    "minecraft:used": {
+      "minecraft:stone_axe": 5,
+      "minecraft:crafting_table": 2,
+      "minecraft:wooden_pickaxe": 19,
+      "minecraft:stone_pickaxe": 3,
+      "minecraft:torch": 5
+    },
+    "minecraft:killed": {
+      "minecraft:skeleton": 2
+    },
+    "minecraft:killed_by": {
+      "minecraft:zombie": 1
+    }
+  },
+  "DataVersion": 4790
+}
